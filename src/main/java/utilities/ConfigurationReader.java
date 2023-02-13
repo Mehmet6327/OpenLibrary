@@ -5,7 +5,7 @@ public class ConfigurationReader {
     private static Properties properties;
     static {
         try {
-            String path = "configuration.properties";
+            String path = "gradle-wrapper.properties";
             FileInputStream input = new FileInputStream(path);
             properties = new Properties();
             properties.load(input);
